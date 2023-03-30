@@ -9,6 +9,16 @@ public class Centimeter {
         this.magnitude = magnitude;
     }
 
+    public static Centimeter meterToCentiMeter(double magnitude)
+    {
+        return new Centimeter(magnitude * 100);
+    }
+
+    public static Centimeter kilometerToCentiMeter(double magnitude)
+    {
+        return new Centimeter(magnitude * 1000_00);
+    }
+
     @Override
     public boolean equals(Object otherObject)
     {
