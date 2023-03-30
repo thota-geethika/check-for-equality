@@ -29,7 +29,7 @@ public class LengthUnitsTest {
 
 
     @Test
-    void toReturnInEqualityWhenHundredCentimetersIsComparedWithZeroPointZeroZeroOneKilometers()
+    void toReturnEqualityWhenHundredCentimetersIsComparedWithZeroPointZeroZeroOneKilometers()
     {
         LengthUnits zeroPointOneKilometer = kilometer(0.001);
         LengthUnits hundredCentimeters = centimeter(100);
